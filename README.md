@@ -29,11 +29,11 @@ public enum FlexibleHeaderExecutantType {
 ```
 
 ### 1. normal
-- Header appears when offset Y of scroll is 0. In other cases, the Header is disappeared.
+Header appears when offset Y of scroll is 0. In other cases, the Header is disappeared.
 ### 2. threshold
-- Unlike the normal type, the header can be appeared or disappeared in the middle of the scroll by the threshold.
+Unlike the normal type, the header can be appeared or disappeared in the middle of the scroll by the threshold.
 ### 3. customThreshold
-- You can set hidden threshold and show threshold to threshold type. The unit of threshold is the offset of UIScrollView.
+You can set hidden threshold and show threshold to threshold type. The unit of threshold is the offset of UIScrollView.
 
 
 ## Getting Started
