@@ -22,9 +22,9 @@ normal | threshold
 The enum used in the FlexibleHeader class to determine the header type.
 ``` swift
 public enum FlexibleHeaderExecutantType {
-case normal
-case threshold
-case customThreshold(hiddenThreshold: CGFloat, showThreshold: CGFloat)
+    case normal
+    case threshold
+    case customThreshold(hiddenThreshold: CGFloat, showThreshold: CGFloat)
 }
 ```
 
