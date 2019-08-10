@@ -5,7 +5,7 @@ env:
     - PROJECT="FlexibleHeader.xcodeproj"
     - IOS_SDK="iphonesimulator"
   matrix:
-    - SDK="$IOS_SDK" DESTINATION="platform=iOS Simulator,OS=12.2,name=iPhone X"
+    - SDK="$IOS_SDK" DESTINATION="platform=iOS Simulator,OS=12.2,name=iPhone Xs"
 
 install:
   - swift --version
