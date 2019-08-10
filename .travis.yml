@@ -21,6 +21,6 @@ script:
       -destination "$DESTINATION" | xcpretty -c
     - xcodebuild clean build
       -project "$PROJECT"
-      -scheme FlexibleHeaderExample
+      -scheme Example
       -sdk "$SDK"
       -destination "$DESTINATION" | xcpretty -c
