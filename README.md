@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/k-lpmg/FlexibleHeader/blob/master/LICENSE)
 
-A Container view that responds to scrolling of the UIScrollView.
+A Container view that responds to scrolling of UIScrollView.
 
 normal | threshold
 --- | :---:
