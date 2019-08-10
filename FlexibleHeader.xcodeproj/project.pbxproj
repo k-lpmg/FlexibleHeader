@@ -7,18 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0C3A0322F7EB6A00DFA558 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A0222F7EB6A00DFA558 /* MainTableViewController.swift */; };
-		0A0C3A0522F7EBF000DFA558 /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A0422F7EBF000DFA558 /* SectionType.swift */; };
-		0A0C3A0922F800D600DFA558 /* FlexibleHeaderScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A0822F800D600DFA558 /* FlexibleHeaderScrollViewController.swift */; };
-		0A0C3A0B22F800E600DFA558 /* FlexibleHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A0A22F800E600DFA558 /* FlexibleHeaderViewController.swift */; };
-		0A0C3A0D22F8037A00DFA558 /* CustomThresholdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A0C22F8037A00DFA558 /* CustomThresholdViewController.swift */; };
-		0A0C3A0F22F803AD00DFA558 /* ProgressiveViewAttributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A0E22F803AD00DFA558 /* ProgressiveViewAttributeViewController.swift */; };
-		0A0C3A1122F803C100DFA558 /* ProgressiveLayoutConstraintConstantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A1022F803C100DFA558 /* ProgressiveLayoutConstraintConstantViewController.swift */; };
-		0A0C3A1422F80BFA00DFA558 /* UIViewController-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C3A1322F80BFA00DFA558 /* UIViewController-Extensions.swift */; };
 		0A42178422F5DD0700E679F1 /* SnappingPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42178322F5DD0700E679F1 /* SnappingPosition.swift */; };
 		0A73DC2122EF4AEA003F1207 /* FlexibleHeaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73DC2022EF4AEA003F1207 /* FlexibleHeaderScrollView.swift */; };
 		0A73DC4122EF94F5003F1207 /* FlexibleHeader+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73DC4022EF94F5003F1207 /* FlexibleHeader+UIScrollViewDelegate.swift */; };
-		0A9F25D822FAD1F800D40441 /* CustomThresholdSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F25D722FAD1F800D40441 /* CustomThresholdSettingViewController.swift */; };
 		0AAE93CE22F1D9D4006D5761 /* ThresholdFlexibleHeaderExecutant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE93CD22F1D9D4006D5761 /* ThresholdFlexibleHeaderExecutant.swift */; };
 		0AAE93D022F2F702006D5761 /* ProgressiveViewAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE93CF22F2F702006D5761 /* ProgressiveViewAttribute.swift */; };
 		0AAE93D222F2F70B006D5761 /* ProgressiveLayoutConstraintConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE93D122F2F70B006D5761 /* ProgressiveLayoutConstraintConstant.swift */; };
@@ -26,26 +17,26 @@
 		0AAE93D822F34006006D5761 /* FlexibleHeaderExecutantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE93D722F34006006D5761 /* FlexibleHeaderExecutantType.swift */; };
 		0AAF1C1C22EB67B500636E2E /* FlexibleHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAF1C1A22EB67B500636E2E /* FlexibleHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AAF1C2622EB68F700636E2E /* FlexibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF1C2222EB68F700636E2E /* FlexibleHeader.swift */; };
-		0AAF1C3122EB6EAD00636E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF1C3022EB6EAD00636E2E /* AppDelegate.swift */; };
-		0AAF1C3822EB6EB000636E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF1C3722EB6EB000636E2E /* Assets.xcassets */; };
-		0AAF1C3B22EB6EB000636E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF1C3922EB6EB000636E2E /* LaunchScreen.storyboard */; };
-		0AB6899822FE49BB00AD842D /* FlexibleHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAF1C1722EB67B500636E2E /* FlexibleHeader.framework */; };
-		0AFFF0B422F95D6700B89FBF /* CustomHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFF0B322F95D6700B89FBF /* CustomHeightViewController.swift */; };
+		0AB689A722FF021100AD842D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB689A622FF021100AD842D /* Assets.xcassets */; };
+		0AB689AA22FF021100AD842D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB689A822FF021100AD842D /* LaunchScreen.storyboard */; };
+		0AB689C222FF024900AD842D /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689B222FF024900AD842D /* SectionType.swift */; };
+		0AB689C322FF024900AD842D /* UIViewController-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689B422FF024900AD842D /* UIViewController-Extensions.swift */; };
+		0AB689C422FF024900AD842D /* FlexibleHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689B722FF024900AD842D /* FlexibleHeaderViewController.swift */; };
+		0AB689C522FF024900AD842D /* FlexibleHeaderScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689B822FF024900AD842D /* FlexibleHeaderScrollViewController.swift */; };
+		0AB689C622FF024900AD842D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689B922FF024900AD842D /* MainTableViewController.swift */; };
+		0AB689C722FF024900AD842D /* ProgressiveLayoutConstraintConstantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689BB22FF024900AD842D /* ProgressiveLayoutConstraintConstantViewController.swift */; };
+		0AB689C822FF024900AD842D /* ProgressiveViewAttributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689BC22FF024900AD842D /* ProgressiveViewAttributeViewController.swift */; };
+		0AB689C922FF024900AD842D /* CustomThresholdSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689BE22FF024900AD842D /* CustomThresholdSettingViewController.swift */; };
+		0AB689CA22FF024900AD842D /* CustomThresholdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689BF22FF024900AD842D /* CustomThresholdViewController.swift */; };
+		0AB689CB22FF024900AD842D /* CustomHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689C022FF024900AD842D /* CustomHeightViewController.swift */; };
+		0AB689CC22FF024900AD842D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB689C122FF024900AD842D /* AppDelegate.swift */; };
+		0AB689CD22FF027C00AD842D /* FlexibleHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAF1C1722EB67B500636E2E /* FlexibleHeader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A0C3A0222F7EB6A00DFA558 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		0A0C3A0422F7EBF000DFA558 /* SectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionType.swift; sourceTree = "<group>"; };
-		0A0C3A0822F800D600DFA558 /* FlexibleHeaderScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleHeaderScrollViewController.swift; sourceTree = "<group>"; };
-		0A0C3A0A22F800E600DFA558 /* FlexibleHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleHeaderViewController.swift; sourceTree = "<group>"; };
-		0A0C3A0C22F8037A00DFA558 /* CustomThresholdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomThresholdViewController.swift; sourceTree = "<group>"; };
-		0A0C3A0E22F803AD00DFA558 /* ProgressiveViewAttributeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveViewAttributeViewController.swift; sourceTree = "<group>"; };
-		0A0C3A1022F803C100DFA558 /* ProgressiveLayoutConstraintConstantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveLayoutConstraintConstantViewController.swift; sourceTree = "<group>"; };
-		0A0C3A1322F80BFA00DFA558 /* UIViewController-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extensions.swift"; sourceTree = "<group>"; };
 		0A42178322F5DD0700E679F1 /* SnappingPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingPosition.swift; sourceTree = "<group>"; };
 		0A73DC2022EF4AEA003F1207 /* FlexibleHeaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleHeaderScrollView.swift; sourceTree = "<group>"; };
 		0A73DC4022EF94F5003F1207 /* FlexibleHeader+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlexibleHeader+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
-		0A9F25D722FAD1F800D40441 /* CustomThresholdSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomThresholdSettingViewController.swift; sourceTree = "<group>"; };
 		0AAE93CD22F1D9D4006D5761 /* ThresholdFlexibleHeaderExecutant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThresholdFlexibleHeaderExecutant.swift; sourceTree = "<group>"; };
 		0AAE93CF22F2F702006D5761 /* ProgressiveViewAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveViewAttribute.swift; sourceTree = "<group>"; };
 		0AAE93D122F2F70B006D5761 /* ProgressiveLayoutConstraintConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveLayoutConstraintConstant.swift; sourceTree = "<group>"; };
@@ -55,12 +46,21 @@
 		0AAF1C1A22EB67B500636E2E /* FlexibleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexibleHeader.h; sourceTree = "<group>"; };
 		0AAF1C1B22EB67B500636E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AAF1C2222EB68F700636E2E /* FlexibleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleHeader.swift; sourceTree = "<group>"; };
-		0AAF1C2E22EB6EAD00636E2E /* FlexibleHeaderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleHeaderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AAF1C3022EB6EAD00636E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AAF1C3722EB6EB000636E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0AAF1C3A22EB6EB000636E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0AAF1C3C22EB6EB000636E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AFFF0B322F95D6700B89FBF /* CustomHeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeightViewController.swift; sourceTree = "<group>"; };
+		0AB6899D22FF020E00AD842D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB689A622FF021100AD842D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AB689A922FF021100AD842D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AB689AB22FF021100AD842D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB689B222FF024900AD842D /* SectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionType.swift; sourceTree = "<group>"; };
+		0AB689B422FF024900AD842D /* UIViewController-Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extensions.swift"; sourceTree = "<group>"; };
+		0AB689B722FF024900AD842D /* FlexibleHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleHeaderViewController.swift; sourceTree = "<group>"; };
+		0AB689B822FF024900AD842D /* FlexibleHeaderScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleHeaderScrollViewController.swift; sourceTree = "<group>"; };
+		0AB689B922FF024900AD842D /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		0AB689BB22FF024900AD842D /* ProgressiveLayoutConstraintConstantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressiveLayoutConstraintConstantViewController.swift; sourceTree = "<group>"; };
+		0AB689BC22FF024900AD842D /* ProgressiveViewAttributeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressiveViewAttributeViewController.swift; sourceTree = "<group>"; };
+		0AB689BE22FF024900AD842D /* CustomThresholdSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomThresholdSettingViewController.swift; sourceTree = "<group>"; };
+		0AB689BF22FF024900AD842D /* CustomThresholdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomThresholdViewController.swift; sourceTree = "<group>"; };
+		0AB689C022FF024900AD842D /* CustomHeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeightViewController.swift; sourceTree = "<group>"; };
+		0AB689C122FF024900AD842D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,44 +71,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0AAF1C2B22EB6EAD00636E2E /* Frameworks */ = {
+		0AB6899A22FF020E00AD842D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AB6899822FE49BB00AD842D /* FlexibleHeader.framework in Frameworks */,
+				0AB689CD22FF027C00AD842D /* FlexibleHeader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A0C3A0622F800B200DFA558 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0A0C3A0222F7EB6A00DFA558 /* MainTableViewController.swift */,
-				0AFFF0B622F95D9300B89FBF /* Custom */,
-				0AFFF0B522F95D8B00B89FBF /* NormalOrThreshold */,
-				0AFFF0B722F95D9700B89FBF /* Progressive */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		0A0C3A0722F800B800DFA558 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				0A0C3A0422F7EBF000DFA558 /* SectionType.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		0A0C3A1222F80BEA00DFA558 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				0A0C3A1322F80BFA00DFA558 /* UIViewController-Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		0A73DC1B22EE1485003F1207 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +125,7 @@
 				0AAF1C1A22EB67B500636E2E /* FlexibleHeader.h */,
 				0AAF1C1B22EB67B500636E2E /* Info.plist */,
 				0AAF1C1922EB67B500636E2E /* Sources */,
-				0AAF1C2F22EB6EAD00636E2E /* FlexibleHeaderExample */,
+				0AB6899E22FF020F00AD842D /* Example */,
 				0AAF1C1822EB67B500636E2E /* Products */,
 				0A73DC1B22EE1485003F1207 /* Frameworks */,
 			);
@@ -162,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				0AAF1C1722EB67B500636E2E /* FlexibleHeader.framework */,
-				0AAF1C2E22EB6EAD00636E2E /* FlexibleHeaderExample.app */,
+				0AB6899D22FF020E00AD842D /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,62 +150,89 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		0AAF1C2F22EB6EAD00636E2E /* FlexibleHeaderExample */ = {
+		0AB6899E22FF020F00AD842D /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				0AAF1C3C22EB6EB000636E2E /* Info.plist */,
-				0AAF1C4122EB716F00636E2E /* Resources */,
-				0AAF1C4022EB715800636E2E /* Sources */,
+				0AB689AB22FF021100AD842D /* Info.plist */,
+				0AB689AF22FF023A00AD842D /* Resources */,
+				0AB689B022FF024900AD842D /* Sources */,
 			);
-			path = FlexibleHeaderExample;
+			path = Example;
 			sourceTree = "<group>";
 		};
-		0AAF1C4022EB715800636E2E /* Sources */ = {
+		0AB689AF22FF023A00AD842D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0AAF1C3022EB6EAD00636E2E /* AppDelegate.swift */,
-				0A0C3A0722F800B800DFA558 /* Enums */,
-				0A0C3A1222F80BEA00DFA558 /* Extensions */,
-				0A0C3A0622F800B200DFA558 /* ViewControllers */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		0AAF1C4122EB716F00636E2E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0AAF1C3722EB6EB000636E2E /* Assets.xcassets */,
-				0AAF1C3922EB6EB000636E2E /* LaunchScreen.storyboard */,
+				0AB689A622FF021100AD842D /* Assets.xcassets */,
+				0AB689A822FF021100AD842D /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		0AFFF0B522F95D8B00B89FBF /* NormalOrThreshold */ = {
+		0AB689B022FF024900AD842D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0A0C3A0822F800D600DFA558 /* FlexibleHeaderScrollViewController.swift */,
-				0A0C3A0A22F800E600DFA558 /* FlexibleHeaderViewController.swift */,
+				0AB689C122FF024900AD842D /* AppDelegate.swift */,
+				0AB689B122FF024900AD842D /* Enums */,
+				0AB689B322FF024900AD842D /* Extensions */,
+				0AB689B522FF024900AD842D /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0AB689B122FF024900AD842D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0AB689B222FF024900AD842D /* SectionType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0AB689B322FF024900AD842D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0AB689B422FF024900AD842D /* UIViewController-Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0AB689B522FF024900AD842D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AB689B922FF024900AD842D /* MainTableViewController.swift */,
+				0AB689BD22FF024900AD842D /* Custom */,
+				0AB689B622FF024900AD842D /* NormalOrThreshold */,
+				0AB689BA22FF024900AD842D /* Progressive */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0AB689B622FF024900AD842D /* NormalOrThreshold */ = {
+			isa = PBXGroup;
+			children = (
+				0AB689B822FF024900AD842D /* FlexibleHeaderScrollViewController.swift */,
+				0AB689B722FF024900AD842D /* FlexibleHeaderViewController.swift */,
 			);
 			path = NormalOrThreshold;
 			sourceTree = "<group>";
 		};
-		0AFFF0B622F95D9300B89FBF /* Custom */ = {
+		0AB689BA22FF024900AD842D /* Progressive */ = {
 			isa = PBXGroup;
 			children = (
-				0AFFF0B322F95D6700B89FBF /* CustomHeightViewController.swift */,
-				0A9F25D722FAD1F800D40441 /* CustomThresholdSettingViewController.swift */,
-				0A0C3A0C22F8037A00DFA558 /* CustomThresholdViewController.swift */,
-			);
-			path = Custom;
-			sourceTree = "<group>";
-		};
-		0AFFF0B722F95D9700B89FBF /* Progressive */ = {
-			isa = PBXGroup;
-			children = (
-				0A0C3A1022F803C100DFA558 /* ProgressiveLayoutConstraintConstantViewController.swift */,
-				0A0C3A0E22F803AD00DFA558 /* ProgressiveViewAttributeViewController.swift */,
+				0AB689BB22FF024900AD842D /* ProgressiveLayoutConstraintConstantViewController.swift */,
+				0AB689BC22FF024900AD842D /* ProgressiveViewAttributeViewController.swift */,
 			);
 			path = Progressive;
+			sourceTree = "<group>";
+		};
+		0AB689BD22FF024900AD842D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0AB689C022FF024900AD842D /* CustomHeightViewController.swift */,
+				0AB689BE22FF024900AD842D /* CustomThresholdSettingViewController.swift */,
+				0AB689BF22FF024900AD842D /* CustomThresholdViewController.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,21 +267,21 @@
 			productReference = 0AAF1C1722EB67B500636E2E /* FlexibleHeader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0AAF1C2D22EB6EAD00636E2E /* FlexibleHeaderExample */ = {
+		0AB6899C22FF020E00AD842D /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AAF1C3D22EB6EB000636E2E /* Build configuration list for PBXNativeTarget "FlexibleHeaderExample" */;
+			buildConfigurationList = 0AB689AE22FF021100AD842D /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				0AAF1C2A22EB6EAD00636E2E /* Sources */,
-				0AAF1C2B22EB6EAD00636E2E /* Frameworks */,
-				0AAF1C2C22EB6EAD00636E2E /* Resources */,
+				0AB6899922FF020E00AD842D /* Sources */,
+				0AB6899A22FF020E00AD842D /* Frameworks */,
+				0AB6899B22FF020E00AD842D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FlexibleHeaderExample;
-			productName = FlexibleHeaderExample;
-			productReference = 0AAF1C2E22EB6EAD00636E2E /* FlexibleHeaderExample.app */;
+			name = Example;
+			productName = Example;
+			productReference = 0AB6899D22FF020E00AD842D /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -298,7 +298,7 @@
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
 					};
-					0AAF1C2D22EB6EAD00636E2E = {
+					0AB6899C22FF020E00AD842D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -317,7 +317,7 @@
 			projectRoot = "";
 			targets = (
 				0AAF1C1622EB67B500636E2E /* FlexibleHeader */,
-				0AAF1C2D22EB6EAD00636E2E /* FlexibleHeaderExample */,
+				0AB6899C22FF020E00AD842D /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -330,12 +330,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0AAF1C2C22EB6EAD00636E2E /* Resources */ = {
+		0AB6899B22FF020E00AD842D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AAF1C3B22EB6EB000636E2E /* LaunchScreen.storyboard in Resources */,
-				0AAF1C3822EB6EB000636E2E /* Assets.xcassets in Resources */,
+				0AB689AA22FF021100AD842D /* LaunchScreen.storyboard in Resources */,
+				0AB689A722FF021100AD842D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,31 +358,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0AAF1C2A22EB6EAD00636E2E /* Sources */ = {
+		0AB6899922FF020E00AD842D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0C3A0D22F8037A00DFA558 /* CustomThresholdViewController.swift in Sources */,
-				0AAF1C3122EB6EAD00636E2E /* AppDelegate.swift in Sources */,
-				0AFFF0B422F95D6700B89FBF /* CustomHeightViewController.swift in Sources */,
-				0A0C3A0F22F803AD00DFA558 /* ProgressiveViewAttributeViewController.swift in Sources */,
-				0A0C3A0322F7EB6A00DFA558 /* MainTableViewController.swift in Sources */,
-				0A0C3A1122F803C100DFA558 /* ProgressiveLayoutConstraintConstantViewController.swift in Sources */,
-				0A0C3A0922F800D600DFA558 /* FlexibleHeaderScrollViewController.swift in Sources */,
-				0A0C3A0522F7EBF000DFA558 /* SectionType.swift in Sources */,
-				0A9F25D822FAD1F800D40441 /* CustomThresholdSettingViewController.swift in Sources */,
-				0A0C3A1422F80BFA00DFA558 /* UIViewController-Extensions.swift in Sources */,
-				0A0C3A0B22F800E600DFA558 /* FlexibleHeaderViewController.swift in Sources */,
+				0AB689CC22FF024900AD842D /* AppDelegate.swift in Sources */,
+				0AB689C322FF024900AD842D /* UIViewController-Extensions.swift in Sources */,
+				0AB689C722FF024900AD842D /* ProgressiveLayoutConstraintConstantViewController.swift in Sources */,
+				0AB689C922FF024900AD842D /* CustomThresholdSettingViewController.swift in Sources */,
+				0AB689C522FF024900AD842D /* FlexibleHeaderScrollViewController.swift in Sources */,
+				0AB689CB22FF024900AD842D /* CustomHeightViewController.swift in Sources */,
+				0AB689C222FF024900AD842D /* SectionType.swift in Sources */,
+				0AB689C822FF024900AD842D /* ProgressiveViewAttributeViewController.swift in Sources */,
+				0AB689C622FF024900AD842D /* MainTableViewController.swift in Sources */,
+				0AB689CA22FF024900AD842D /* CustomThresholdViewController.swift in Sources */,
+				0AB689C422FF024900AD842D /* FlexibleHeaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0AAF1C3922EB6EB000636E2E /* LaunchScreen.storyboard */ = {
+		0AB689A822FF021100AD842D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0AAF1C3A22EB6EB000636E2E /* Base */,
+				0AB689A922FF021100AD842D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -569,44 +569,42 @@
 			};
 			name = Release;
 		};
-		0AAF1C3E22EB6EB000636E2E /* Debug */ = {
+		0AB689AC22FF021100AD842D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = FlexibleHeaderExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.FlexibleHeaderExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0AAF1C3F22EB6EB000636E2E /* Release */ = {
+		0AB689AD22FF021100AD842D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = FlexibleHeaderExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.FlexibleHeaderExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -632,11 +630,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AAF1C3D22EB6EB000636E2E /* Build configuration list for PBXNativeTarget "FlexibleHeaderExample" */ = {
+		0AB689AE22FF021100AD842D /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AAF1C3E22EB6EB000636E2E /* Debug */,
-				0AAF1C3F22EB6EB000636E2E /* Release */,
+				0AB689AC22FF021100AD842D /* Debug */,
+				0AB689AD22FF021100AD842D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
