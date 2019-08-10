@@ -29,6 +29,7 @@
 		0AAF1C3122EB6EAD00636E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF1C3022EB6EAD00636E2E /* AppDelegate.swift */; };
 		0AAF1C3822EB6EB000636E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF1C3722EB6EB000636E2E /* Assets.xcassets */; };
 		0AAF1C3B22EB6EB000636E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF1C3922EB6EB000636E2E /* LaunchScreen.storyboard */; };
+		0AB6899822FE49BB00AD842D /* FlexibleHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAF1C1722EB67B500636E2E /* FlexibleHeader.framework */; };
 		0AFFF0B422F95D6700B89FBF /* CustomHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFF0B322F95D6700B89FBF /* CustomHeightViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB6899822FE49BB00AD842D /* FlexibleHeader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +560,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.FlexibleHeader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -601,7 +603,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.FlexibleHeaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
